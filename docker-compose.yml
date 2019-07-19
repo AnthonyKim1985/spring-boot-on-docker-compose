@@ -3,6 +3,8 @@ services:
   spring-boot-on-docker:
     container_name: spring-boot-on-docker
     image: hyuk0628/spring-boot-on-docker:latest
+    ports:
+      - "80:8080"
     links:
       - mongo:mongo
     restart: always
