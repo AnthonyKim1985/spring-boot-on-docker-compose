@@ -3,19 +3,19 @@
 <h5>1) foreground 실행</h5>
 
 ```
-docker-compose up
+$ docker-compose up
 ```
 
 <h5>2) background 실행</h5>
 
 ```
-docker-compose up -d
+$ docker-compose up -d
 ```
 
 <h5>3) docker-compose 종료</h5>
 
 ```
-docker-compose down
+$ docker-compose down
 ```
 
 <h4>2. 참조</h4>
